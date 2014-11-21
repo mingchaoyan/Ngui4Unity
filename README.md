@@ -6,4 +6,4 @@ Ngui4Unity
 界面展示
 --------
 
-![image](https://github.com/mingchaoyan/ngui4unity/blob/master/GameShots/screenshot.png)
+![image](https://github.com/mingchaoyan/Ngui4Unity/blob/master/ScreenShot/screenshot.png)
