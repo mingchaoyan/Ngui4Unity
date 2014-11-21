@@ -1505,7 +1505,7 @@ MonoBehaviour:
     relative: 1
     absolute: 0
   updateAnchors: 1
-  mColor: {r: .584077954, g: .937254906, b: .36330834, a: 1}
+  mColor: {r: .392156869, g: .90196079, b: 1, a: 1}
   mPivot: 4
   mWidth: 400
   mHeight: 22
@@ -3252,7 +3252,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1503807592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 26, z: 0}
+  m_LocalPosition: {x: 0, y: 28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 843709520}
@@ -3268,11 +3268,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiCamera: {fileID: 629834934}
-  container: {fileID: 644391360}
+  container: {fileID: 789775564}
   side: 3
   runOnlyOnce: 1
   relativeOffset: {x: 0, y: 0}
-  pixelOffset: {x: 0, y: 32}
+  pixelOffset: {x: 0, y: -32}
   widgetContainer: {fileID: 0}
 --- !u!114 &1503807595
 MonoBehaviour:
@@ -3491,7 +3491,8 @@ GameObject:
   - 65: {fileID: 1872001766}
   - 114: {fileID: 1872001765}
   - 114: {fileID: 1872001764}
-  m_Layer: 0
+  - 114: {fileID: 1872001767}
+  m_Layer: 8
   m_Name: Input
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3547,7 +3548,7 @@ MonoBehaviour:
   hideInput: 0
   validation: 0
   characterLimit: 25
-  savedAs: nickname
+  savedAs: Nickname
   selectOnTab: {fileID: 0}
   activeTextColor: {r: 1, g: 1, b: 1, a: 1}
   caretColor: {r: 1, g: 1, b: 1, a: .800000012}
@@ -3567,6 +3568,56 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 400, y: 22, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1872001767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1872001762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 1
+  mColor: {r: .392156869, g: .90196079, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 400
+  mHeight: 22
+  mDepth: 3
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 18.181818
+  mType: 1
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mAtlas: {fileID: 11400000, guid: 2f2473f73b9ca724f9080d6d76009ea2, type: 2}
+  mSpriteName: Dark
+  mFillCenter: 1
 --- !u!1 &2008698619
 GameObject:
   m_ObjectHideFlags: 0
